@@ -14,7 +14,11 @@ The 8 to 3 line Encoder is also known as Octal to Binary Encoder. In 8 to 3 line
 ![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/0bc242c1-eb9e-4c47-afe5-30428470efc3)
 
 Figure 01  Block Diagram of Encoder 8 * 3
+
+
 The logical expression of the term A0, A1, and A2 are as follows:
+
+
 
 A0 = D1 + D3 + D5 + D7
 
@@ -22,12 +26,22 @@ A1 = D2 + D3 + D6 + D7
 
 A2 = D4 + D5 + D6 + D7
 
+
+
 Logical circuit of the above expressions is given below:
+
+
 ![image](https://github.com/user-attachments/assets/660403c7-7228-435e-aa1f-3a4c3508a69c)
+
+
 Figure 02 Encoder 8 * 3
+
+
 **Truth Table**
 
 ![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/35496b14-ae6e-4cd1-9abd-d6736b576575)
+
+
 
 The logical expression of the term A0, A1, and A2 are as follows:
 
@@ -43,26 +57,32 @@ Logical circuit of the above expressions is given below:
 
 Figure 02  Encoder 8 * 3
 
+
+
 **Procedure**
 
 1.Type the program in Quartus software.
 2.Compile and run the program.
 3.Generate the RTL schematic and save the logic diagram.
 4.Create nodes for inputs and outputs to generate the timing diagram.
-5.For different input combinations generate the timing diagram
+5.For different input combinations generate the timing diagram.
+
+
 
 **PROGRAM**
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
 
 Developed by: RegisterNumber:24900674 P.DHARANI SREE
-'''module enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+```
+module enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
 input y0,y1,y2,y3,y4,y5,y6,y7;
 output a,b,c;
 assign a= ( y4 | y5 | y6 | y7);
 assign b= ( y2 | y3 | y6 | y7);
 assign c= ( y1 | y3 | y5 | y7);
-endmodule'''
+endmodule
+```
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
@@ -71,7 +91,8 @@ endmodule'''
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
-![enc waveform](https://github.com/user-attachments/assets/193ab000-e834-4e5d-b2fd-8dfaa5c59704)
+![image](https://github.com/user-attachments/assets/87318346-06cc-4bbd-8629-6aa4aedf6e80)
+
 
 **RESULTS**
 Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables are verified.
