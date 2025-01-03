@@ -43,22 +43,6 @@ Figure 02 Encoder 8 * 3
 
 
 
-The logical expression of the term A0, A1, and A2 are as follows:
-
-A0 = D1 + D3 + D5 + D7
-
-A1 = D2 + D3 + D6 + D7
-
-A2 = D4 + D5 + D6 + D7
-
-Logical circuit of the above expressions is given below:
-
-![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/95acaee6-c873-4c75-89eb-ef09fb158053)
-
-Figure 02  Encoder 8 * 3
-
-
-
 **Procedure**
 
 1.Type the program in Quartus software.
